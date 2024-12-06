@@ -12,5 +12,5 @@ Train::~Train() {
 }
 
 void Train::print(std::ostream& os) const {
-    os << *_wagons << "-" << *_locomotive << '>';
+    os << *_wagons << "-" << *_locomotive;
 }

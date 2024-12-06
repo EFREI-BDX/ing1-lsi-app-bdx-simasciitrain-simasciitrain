@@ -13,5 +13,5 @@ std::string AbstractLocomotive::getType() const {
 }
 
 void AbstractLocomotive::print(std::ostream& os) const {
-    os << "[" << getSymbol() << "]";
+    os << "[" << getSymbol() << "]>";
 }
